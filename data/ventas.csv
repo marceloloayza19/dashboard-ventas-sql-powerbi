@@ -1,61 +1,121 @@
-fecha,producto,categoria,cliente,zona,cantidad,precio_unitario,total_venta
-2025-01-05,Laptop Lenovo,Computo,Cliente A,Lima,2,2500.00,5000.00
-2025-01-08,Mouse Logitech,Accesorios,Cliente B,Lima,10,45.00,450.00
-2025-01-12,Monitor Samsung,Computo,Cliente C,Norte,3,780.00,2340.00
-2025-01-18,Teclado Redragon,Accesorios,Cliente D,Sur,6,120.00,720.00
-2025-01-24,Impresora Epson,Impresion,Cliente E,Centro,2,650.00,1300.00
-2025-02-03,Laptop HP,Computo,Cliente F,Norte,1,2800.00,2800.00
-2025-02-07,Tablet Samsung,Moviles,Cliente G,Lima,4,950.00,3800.00
-2025-02-15,Auriculares Sony,Accesorios,Cliente H,Sur,8,180.00,1440.00
-2025-02-21,Impresora Canon,Impresion,Cliente I,Centro,3,590.00,1770.00
-2025-02-27,Smartphone Xiaomi,Moviles,Cliente J,Norte,5,1100.00,5500.00
-2025-03-04,Laptop Lenovo,Computo,Cliente K,Lima,2,2500.00,5000.00
-2025-03-10,Mouse Logitech,Accesorios,Cliente L,Centro,12,45.00,540.00
-2025-03-14,Monitor LG,Computo,Cliente M,Sur,4,720.00,2880.00
-2025-03-20,Smartphone Samsung,Moviles,Cliente N,Lima,3,1450.00,4350.00
-2025-03-29,Tinta Epson,Impresion,Cliente O,Norte,15,55.00,825.00
-2025-04-02,Teclado Logitech,Accesorios,Cliente P,Centro,7,150.00,1050.00
-2025-04-09,Laptop Dell,Computo,Cliente Q,Sur,2,3100.00,6200.00
-2025-04-16,Tablet Lenovo,Moviles,Cliente R,Norte,3,870.00,2610.00
-2025-04-22,Impresora Epson,Impresion,Cliente S,Lima,2,650.00,1300.00
-2025-04-30,Auriculares JBL,Accesorios,Cliente T,Centro,9,160.00,1440.00
-2025-05-05,Monitor Samsung,Computo,Cliente U,Lima,5,780.00,3900.00
-2025-05-11,Smartphone Xiaomi,Moviles,Cliente V,Sur,4,1100.00,4400.00
-2025-05-17,Mouse Logitech,Accesorios,Cliente W,Norte,14,45.00,630.00
-2025-05-23,Laptop HP,Computo,Cliente X,Centro,2,2800.00,5600.00
-2025-05-28,Tinta Canon,Impresion,Cliente Y,Lima,18,50.00,900.00
-2025-06-03,Tablet Samsung,Moviles,Cliente Z,Sur,5,950.00,4750.00
-2025-06-08,Teclado Redragon,Accesorios,Cliente AA,Norte,8,120.00,960.00
-2025-06-15,Laptop Dell,Computo,Cliente AB,Lima,1,3100.00,3100.00
-2025-06-21,Impresora Canon,Impresion,Cliente AC,Centro,2,590.00,1180.00
-2025-06-27,Smartphone Samsung,Moviles,Cliente AD,Norte,4,1450.00,5800.00
-2025-07-04,Laptop Lenovo,Computo,Cliente AE,Sur,3,2500.00,7500.00
-2025-07-09,Monitor LG,Computo,Cliente AF,Lima,2,720.00,1440.00
-2025-07-13,Auriculares Sony,Accesorios,Cliente AG,Centro,10,180.00,1800.00
-2025-07-19,Tablet Lenovo,Moviles,Cliente AH,Norte,6,870.00,5220.00
-2025-07-25,Tinta Epson,Impresion,Cliente AI,Sur,20,55.00,1100.00
-2025-08-01,Laptop HP,Computo,Cliente AJ,Lima,2,2800.00,5600.00
-2025-08-06,Mouse Logitech,Accesorios,Cliente AK,Centro,16,45.00,720.00
-2025-08-12,Smartphone Xiaomi,Moviles,Cliente AL,Sur,6,1100.00,6600.00
-2025-08-20,Impresora Epson,Impresion,Cliente AM,Norte,3,650.00,1950.00
-2025-08-27,Teclado Logitech,Accesorios,Cliente AN,Lima,9,150.00,1350.00
-2025-09-03,Monitor Samsung,Computo,Cliente AO,Centro,4,780.00,3120.00
-2025-09-10,Tablet Samsung,Moviles,Cliente AP,Lima,5,950.00,4750.00
-2025-09-16,Auriculares JBL,Accesorios,Cliente AQ,Norte,12,160.00,1920.00
-2025-09-22,Laptop Dell,Computo,Cliente AR,Sur,2,3100.00,6200.00
-2025-09-29,Tinta Canon,Impresion,Cliente AS,Centro,22,50.00,1100.00
-2025-10-05,Smartphone Samsung,Moviles,Cliente AT,Lima,4,1450.00,5800.00
-2025-10-11,Laptop Lenovo,Computo,Cliente AU,Norte,2,2500.00,5000.00
-2025-10-18,Mouse Logitech,Accesorios,Cliente AV,Sur,18,45.00,810.00
-2025-10-24,Impresora Canon,Impresion,Cliente AW,Lima,4,590.00,2360.00
-2025-10-30,Monitor LG,Computo,Cliente AX,Centro,3,720.00,2160.00
-2025-11-04,Tablet Lenovo,Moviles,Cliente AY,Norte,4,870.00,3480.00
-2025-11-09,Teclado Redragon,Accesorios,Cliente AZ,Lima,11,120.00,1320.00
-2025-11-15,Laptop HP,Computo,Cliente BA,Sur,3,2800.00,8400.00
-2025-11-22,Tinta Epson,Impresion,Cliente BB,Centro,25,55.00,1375.00
-2025-11-28,Smartphone Xiaomi,Moviles,Cliente BC,Norte,7,1100.00,7700.00
-2025-12-03,Laptop Dell,Computo,Cliente BD,Lima,2,3100.00,6200.00
-2025-12-08,Auriculares Sony,Accesorios,Cliente BE,Sur,14,180.00,2520.00
-2025-12-14,Monitor Samsung,Computo,Cliente BF,Norte,5,780.00,3900.00
-2025-12-20,Tablet Samsung,Moviles,Cliente BG,Centro,6,950.00,5700.00
-2025-12-27,Impresora Epson,Impresion,Cliente BH,Lima,3,650.00,1950.00
+﻿id_venta,fecha,cliente,zona,producto,categoria,cantidad,precio_unitario,total_venta,metodo_pago,vendedor
+1,2025-01-03,Inversiones Lima Norte,Sur,Monitor Samsung 24,Computo,2,780.00,1560.00,Yape/Plin,Carla Mendoza
+2,2025-01-06,Tech Solutions Peru,Oriente,Webcam Logitech C920,Accesorios,4,260.00,1040.00,Tarjeta de credito,Ana Torres
+3,2025-01-09,Corporacion Prisma,Norte,Smartphone Xiaomi Redmi Note,Moviles,6,1100.00,6600.00,Efectivo,Sofia Herrera
+4,2025-01-12,Grupo Altamar,Centro,Laptop Dell Inspiron,Computo,8,3100.00,24800.00,Credito empresarial,Carla Mendoza
+5,2025-01-15,Importaciones Vega,Lima,Auriculares Sony WH-CH520,Accesorios,2,180.00,360.00,Transferencia,Ana Torres
+6,2025-01-18,Comercial Los Andes,Sur,Smartphone Samsung A54,Moviles,4,1450.00,5800.00,Yape/Plin,Sofia Herrera
+7,2025-01-21,Estudio Contable Ruiz,Oriente,Laptop HP Pavilion,Computo,6,2800.00,16800.00,Tarjeta de credito,Carla Mendoza
+8,2025-01-24,Colegio San Gabriel,Norte,Teclado Redragon K552,Accesorios,8,120.00,960.00,Efectivo,Ana Torres
+9,2025-01-27,Agroindustrias Norte,Centro,Tinta Epson Original,Impresion,2,55.00,110.00,Credito empresarial,Sofia Herrera
+10,2025-01-03,Cliente Andina SAC,Lima,Laptop Lenovo IdeaPad,Computo,4,2500.00,10000.00,Transferencia,Carla Mendoza
+11,2025-02-05,Ferreteria Central,Centro,Teclado Redragon K552,Accesorios,3,120.00,360.00,Tarjeta de credito,Luis Ramirez
+12,2025-02-08,Clinica San Martin,Lima,Tinta Epson Original,Impresion,5,55.00,275.00,Efectivo,Jorge Castillo
+13,2025-02-11,Hotel Miraflores,Sur,Laptop Lenovo IdeaPad,Computo,7,2500.00,17500.00,Credito empresarial,Diego Salazar
+14,2025-02-14,Logistica Express,Oriente,Mouse Logitech M170,Accesorios,1,45.00,45.00,Transferencia,Luis Ramirez
+15,2025-02-17,Comercial Santa Rosa,Norte,Impresora Canon Pixma,Impresion,3,590.00,1770.00,Yape/Plin,Jorge Castillo
+16,2025-02-20,Servicios Globales EIRL,Centro,Tablet Lenovo M10,Moviles,5,870.00,4350.00,Tarjeta de credito,Diego Salazar
+17,2025-02-23,Distribuidora El Sol,Lima,Monitor LG 27,Computo,7,920.00,6440.00,Efectivo,Luis Ramirez
+18,2025-02-26,Negocios Rivera,Sur,Impresora Epson EcoTank,Impresion,1,650.00,650.00,Credito empresarial,Jorge Castillo
+19,2025-02-02,Consultora Delta,Oriente,Tablet Samsung Galaxy Tab,Moviles,3,950.00,2850.00,Transferencia,Diego Salazar
+20,2025-02-05,Soluciones Integrales SAC,Norte,Monitor Samsung 24,Computo,5,780.00,3900.00,Yape/Plin,Luis Ramirez
+21,2025-03-07,Tech Solutions Peru,Oriente,Impresora Epson EcoTank,Impresion,4,650.00,2600.00,Efectivo,Ana Torres
+22,2025-03-10,Corporacion Prisma,Norte,Tablet Samsung Galaxy Tab,Moviles,6,950.00,5700.00,Credito empresarial,Sofia Herrera
+23,2025-03-13,Grupo Altamar,Centro,Monitor Samsung 24,Computo,8,780.00,6240.00,Transferencia,Carla Mendoza
+24,2025-03-16,Importaciones Vega,Lima,Webcam Logitech C920,Accesorios,2,260.00,520.00,Yape/Plin,Ana Torres
+25,2025-03-19,Comercial Los Andes,Sur,Smartphone Xiaomi Redmi Note,Moviles,4,1100.00,4400.00,Tarjeta de credito,Sofia Herrera
+26,2025-03-22,Estudio Contable Ruiz,Oriente,Laptop Dell Inspiron,Computo,6,3100.00,18600.00,Efectivo,Carla Mendoza
+27,2025-03-25,Colegio San Gabriel,Norte,Auriculares Sony WH-CH520,Accesorios,8,180.00,1440.00,Credito empresarial,Ana Torres
+28,2025-03-01,Agroindustrias Norte,Centro,Smartphone Samsung A54,Moviles,2,1450.00,2900.00,Transferencia,Sofia Herrera
+29,2025-03-04,Cliente Andina SAC,Lima,Laptop HP Pavilion,Computo,4,2800.00,11200.00,Yape/Plin,Carla Mendoza
+30,2025-03-07,Inversiones Lima Norte,Sur,Teclado Redragon K552,Accesorios,6,120.00,720.00,Tarjeta de credito,Ana Torres
+31,2025-04-09,Clinica San Martin,Lima,Smartphone Samsung A54,Moviles,5,1450.00,7250.00,Credito empresarial,Jorge Castillo
+32,2025-04-12,Hotel Miraflores,Sur,Laptop HP Pavilion,Computo,7,2800.00,19600.00,Transferencia,Diego Salazar
+33,2025-04-15,Logistica Express,Oriente,Teclado Redragon K552,Accesorios,1,120.00,120.00,Yape/Plin,Luis Ramirez
+34,2025-04-18,Comercial Santa Rosa,Norte,Tinta Epson Original,Impresion,3,55.00,165.00,Tarjeta de credito,Jorge Castillo
+35,2025-04-21,Servicios Globales EIRL,Centro,Laptop Lenovo IdeaPad,Computo,5,2500.00,12500.00,Efectivo,Diego Salazar
+36,2025-04-24,Distribuidora El Sol,Lima,Mouse Logitech M170,Accesorios,7,45.00,315.00,Credito empresarial,Luis Ramirez
+37,2025-04-27,Negocios Rivera,Sur,Impresora Canon Pixma,Impresion,1,590.00,590.00,Transferencia,Jorge Castillo
+38,2025-04-03,Consultora Delta,Oriente,Tablet Lenovo M10,Moviles,3,870.00,2610.00,Yape/Plin,Diego Salazar
+39,2025-04-06,Soluciones Integrales SAC,Norte,Monitor LG 27,Computo,5,920.00,4600.00,Tarjeta de credito,Luis Ramirez
+40,2025-04-09,Ferreteria Central,Centro,Impresora Epson EcoTank,Impresion,7,650.00,4550.00,Efectivo,Jorge Castillo
+41,2025-05-11,Corporacion Prisma,Norte,Tablet Lenovo M10,Moviles,6,870.00,5220.00,Transferencia,Sofia Herrera
+42,2025-05-14,Grupo Altamar,Centro,Monitor LG 27,Computo,8,920.00,7360.00,Yape/Plin,Carla Mendoza
+43,2025-05-17,Importaciones Vega,Lima,Impresora Epson EcoTank,Impresion,2,650.00,1300.00,Tarjeta de credito,Ana Torres
+44,2025-05-20,Comercial Los Andes,Sur,Tablet Samsung Galaxy Tab,Moviles,4,950.00,3800.00,Efectivo,Sofia Herrera
+45,2025-05-23,Estudio Contable Ruiz,Oriente,Monitor Samsung 24,Computo,6,780.00,4680.00,Credito empresarial,Carla Mendoza
+46,2025-05-26,Colegio San Gabriel,Norte,Webcam Logitech C920,Accesorios,8,260.00,2080.00,Transferencia,Ana Torres
+47,2025-05-02,Agroindustrias Norte,Centro,Smartphone Xiaomi Redmi Note,Moviles,2,1100.00,2200.00,Yape/Plin,Sofia Herrera
+48,2025-05-05,Cliente Andina SAC,Lima,Laptop Dell Inspiron,Computo,4,3100.00,12400.00,Tarjeta de credito,Carla Mendoza
+49,2025-05-08,Inversiones Lima Norte,Sur,Auriculares Sony WH-CH520,Accesorios,6,180.00,1080.00,Efectivo,Ana Torres
+50,2025-05-11,Tech Solutions Peru,Oriente,Smartphone Samsung A54,Moviles,8,1450.00,11600.00,Credito empresarial,Sofia Herrera
+51,2025-06-13,Hotel Miraflores,Sur,Laptop Dell Inspiron,Computo,7,3100.00,21700.00,Yape/Plin,Diego Salazar
+52,2025-06-16,Logistica Express,Oriente,Auriculares Sony WH-CH520,Accesorios,1,180.00,180.00,Tarjeta de credito,Luis Ramirez
+53,2025-06-19,Comercial Santa Rosa,Norte,Smartphone Samsung A54,Moviles,3,1450.00,4350.00,Efectivo,Jorge Castillo
+54,2025-06-22,Servicios Globales EIRL,Centro,Laptop HP Pavilion,Computo,5,2800.00,14000.00,Credito empresarial,Diego Salazar
+55,2025-06-25,Distribuidora El Sol,Lima,Teclado Redragon K552,Accesorios,7,120.00,840.00,Transferencia,Luis Ramirez
+56,2025-06-01,Negocios Rivera,Sur,Tinta Epson Original,Impresion,1,55.00,55.00,Yape/Plin,Jorge Castillo
+57,2025-06-04,Consultora Delta,Oriente,Laptop Lenovo IdeaPad,Computo,3,2500.00,7500.00,Tarjeta de credito,Diego Salazar
+58,2025-06-07,Soluciones Integrales SAC,Norte,Mouse Logitech M170,Accesorios,5,45.00,225.00,Efectivo,Luis Ramirez
+59,2025-06-10,Ferreteria Central,Centro,Impresora Canon Pixma,Impresion,7,590.00,4130.00,Credito empresarial,Jorge Castillo
+60,2025-06-13,Clinica San Martin,Lima,Tablet Lenovo M10,Moviles,1,870.00,870.00,Transferencia,Diego Salazar
+61,2025-07-15,Grupo Altamar,Centro,Mouse Logitech M170,Accesorios,8,45.00,360.00,Tarjeta de credito,Carla Mendoza
+62,2025-07-18,Importaciones Vega,Lima,Impresora Canon Pixma,Impresion,2,590.00,1180.00,Efectivo,Ana Torres
+63,2025-07-21,Comercial Los Andes,Sur,Tablet Lenovo M10,Moviles,4,870.00,3480.00,Credito empresarial,Sofia Herrera
+64,2025-07-24,Estudio Contable Ruiz,Oriente,Monitor LG 27,Computo,6,920.00,5520.00,Transferencia,Carla Mendoza
+65,2025-07-27,Colegio San Gabriel,Norte,Impresora Epson EcoTank,Impresion,8,650.00,5200.00,Yape/Plin,Ana Torres
+66,2025-07-03,Agroindustrias Norte,Centro,Tablet Samsung Galaxy Tab,Moviles,2,950.00,1900.00,Tarjeta de credito,Sofia Herrera
+67,2025-07-06,Cliente Andina SAC,Lima,Monitor Samsung 24,Computo,4,780.00,3120.00,Efectivo,Carla Mendoza
+68,2025-07-09,Inversiones Lima Norte,Sur,Webcam Logitech C920,Accesorios,6,260.00,1560.00,Credito empresarial,Ana Torres
+69,2025-07-12,Tech Solutions Peru,Oriente,Smartphone Xiaomi Redmi Note,Moviles,8,1100.00,8800.00,Transferencia,Sofia Herrera
+70,2025-07-15,Corporacion Prisma,Norte,Laptop Dell Inspiron,Computo,2,3100.00,6200.00,Yape/Plin,Carla Mendoza
+71,2025-08-17,Logistica Express,Oriente,Webcam Logitech C920,Accesorios,1,260.00,260.00,Efectivo,Luis Ramirez
+72,2025-08-20,Comercial Santa Rosa,Norte,Smartphone Xiaomi Redmi Note,Moviles,3,1100.00,3300.00,Credito empresarial,Jorge Castillo
+73,2025-08-23,Servicios Globales EIRL,Centro,Laptop Dell Inspiron,Computo,5,3100.00,15500.00,Transferencia,Diego Salazar
+74,2025-08-26,Distribuidora El Sol,Lima,Auriculares Sony WH-CH520,Accesorios,7,180.00,1260.00,Yape/Plin,Luis Ramirez
+75,2025-08-02,Negocios Rivera,Sur,Smartphone Samsung A54,Moviles,1,1450.00,1450.00,Tarjeta de credito,Jorge Castillo
+76,2025-08-05,Consultora Delta,Oriente,Laptop HP Pavilion,Computo,3,2800.00,8400.00,Efectivo,Diego Salazar
+77,2025-08-08,Soluciones Integrales SAC,Norte,Teclado Redragon K552,Accesorios,5,120.00,600.00,Credito empresarial,Luis Ramirez
+78,2025-08-11,Ferreteria Central,Centro,Tinta Epson Original,Impresion,7,55.00,385.00,Transferencia,Jorge Castillo
+79,2025-08-14,Clinica San Martin,Lima,Laptop Lenovo IdeaPad,Computo,1,2500.00,2500.00,Yape/Plin,Diego Salazar
+80,2025-08-17,Hotel Miraflores,Sur,Mouse Logitech M170,Accesorios,3,45.00,135.00,Tarjeta de credito,Luis Ramirez
+81,2025-09-19,Importaciones Vega,Lima,Tinta Epson Original,Impresion,2,55.00,110.00,Credito empresarial,Ana Torres
+82,2025-09-22,Comercial Los Andes,Sur,Laptop Lenovo IdeaPad,Computo,4,2500.00,10000.00,Transferencia,Sofia Herrera
+83,2025-09-25,Estudio Contable Ruiz,Oriente,Mouse Logitech M170,Accesorios,6,45.00,270.00,Yape/Plin,Carla Mendoza
+84,2025-09-01,Colegio San Gabriel,Norte,Impresora Canon Pixma,Impresion,8,590.00,4720.00,Tarjeta de credito,Ana Torres
+85,2025-09-04,Agroindustrias Norte,Centro,Tablet Lenovo M10,Moviles,2,870.00,1740.00,Efectivo,Sofia Herrera
+86,2025-09-07,Cliente Andina SAC,Lima,Monitor LG 27,Computo,4,920.00,3680.00,Credito empresarial,Carla Mendoza
+87,2025-09-10,Inversiones Lima Norte,Sur,Impresora Epson EcoTank,Impresion,6,650.00,3900.00,Transferencia,Ana Torres
+88,2025-09-13,Tech Solutions Peru,Oriente,Tablet Samsung Galaxy Tab,Moviles,8,950.00,7600.00,Yape/Plin,Sofia Herrera
+89,2025-09-16,Corporacion Prisma,Norte,Monitor Samsung 24,Computo,2,780.00,1560.00,Tarjeta de credito,Carla Mendoza
+90,2025-09-19,Grupo Altamar,Centro,Webcam Logitech C920,Accesorios,4,260.00,1040.00,Efectivo,Ana Torres
+91,2025-10-21,Comercial Santa Rosa,Norte,Tablet Samsung Galaxy Tab,Moviles,3,950.00,2850.00,Transferencia,Jorge Castillo
+92,2025-10-24,Servicios Globales EIRL,Centro,Monitor Samsung 24,Computo,5,780.00,3900.00,Yape/Plin,Diego Salazar
+93,2025-10-27,Distribuidora El Sol,Lima,Webcam Logitech C920,Accesorios,7,260.00,1820.00,Tarjeta de credito,Luis Ramirez
+94,2025-10-03,Negocios Rivera,Sur,Smartphone Xiaomi Redmi Note,Moviles,1,1100.00,1100.00,Efectivo,Jorge Castillo
+95,2025-10-06,Consultora Delta,Oriente,Laptop Dell Inspiron,Computo,3,3100.00,9300.00,Credito empresarial,Diego Salazar
+96,2025-10-09,Soluciones Integrales SAC,Norte,Auriculares Sony WH-CH520,Accesorios,5,180.00,900.00,Transferencia,Luis Ramirez
+97,2025-10-12,Ferreteria Central,Centro,Smartphone Samsung A54,Moviles,7,1450.00,10150.00,Yape/Plin,Jorge Castillo
+98,2025-10-15,Clinica San Martin,Lima,Laptop HP Pavilion,Computo,1,2800.00,2800.00,Tarjeta de credito,Diego Salazar
+99,2025-10-18,Hotel Miraflores,Sur,Teclado Redragon K552,Accesorios,3,120.00,360.00,Efectivo,Luis Ramirez
+100,2025-10-21,Logistica Express,Oriente,Tinta Epson Original,Impresion,5,55.00,275.00,Credito empresarial,Jorge Castillo
+101,2025-11-23,Comercial Los Andes,Sur,Laptop HP Pavilion,Computo,4,2800.00,11200.00,Yape/Plin,Sofia Herrera
+102,2025-11-26,Estudio Contable Ruiz,Oriente,Teclado Redragon K552,Accesorios,6,120.00,720.00,Tarjeta de credito,Carla Mendoza
+103,2025-11-02,Colegio San Gabriel,Norte,Tinta Epson Original,Impresion,8,55.00,440.00,Efectivo,Ana Torres
+104,2025-11-05,Agroindustrias Norte,Centro,Laptop Lenovo IdeaPad,Computo,2,2500.00,5000.00,Credito empresarial,Sofia Herrera
+105,2025-11-08,Cliente Andina SAC,Lima,Mouse Logitech M170,Accesorios,4,45.00,180.00,Transferencia,Carla Mendoza
+106,2025-11-11,Inversiones Lima Norte,Sur,Impresora Canon Pixma,Impresion,6,590.00,3540.00,Yape/Plin,Ana Torres
+107,2025-11-14,Tech Solutions Peru,Oriente,Tablet Lenovo M10,Moviles,8,870.00,6960.00,Tarjeta de credito,Sofia Herrera
+108,2025-11-17,Corporacion Prisma,Norte,Monitor LG 27,Computo,2,920.00,1840.00,Efectivo,Carla Mendoza
+109,2025-11-20,Grupo Altamar,Centro,Impresora Epson EcoTank,Impresion,4,650.00,2600.00,Credito empresarial,Ana Torres
+110,2025-11-23,Importaciones Vega,Lima,Tablet Samsung Galaxy Tab,Moviles,6,950.00,5700.00,Transferencia,Sofia Herrera
+111,2025-12-25,Servicios Globales EIRL,Centro,Monitor LG 27,Computo,5,920.00,4600.00,Tarjeta de credito,Diego Salazar
+112,2025-12-01,Distribuidora El Sol,Lima,Impresora Epson EcoTank,Impresion,7,650.00,4550.00,Efectivo,Luis Ramirez
+113,2025-12-04,Negocios Rivera,Sur,Tablet Samsung Galaxy Tab,Moviles,1,950.00,950.00,Credito empresarial,Jorge Castillo
+114,2025-12-07,Consultora Delta,Oriente,Monitor Samsung 24,Computo,3,780.00,2340.00,Transferencia,Diego Salazar
+115,2025-12-10,Soluciones Integrales SAC,Norte,Webcam Logitech C920,Accesorios,5,260.00,1300.00,Yape/Plin,Luis Ramirez
+116,2025-12-13,Ferreteria Central,Centro,Smartphone Xiaomi Redmi Note,Moviles,7,1100.00,7700.00,Tarjeta de credito,Jorge Castillo
+117,2025-12-16,Clinica San Martin,Lima,Laptop Dell Inspiron,Computo,1,3100.00,3100.00,Efectivo,Diego Salazar
+118,2025-12-19,Hotel Miraflores,Sur,Auriculares Sony WH-CH520,Accesorios,3,180.00,540.00,Credito empresarial,Luis Ramirez
+119,2025-12-22,Logistica Express,Oriente,Smartphone Samsung A54,Moviles,5,1450.00,7250.00,Transferencia,Jorge Castillo
+120,2025-12-25,Comercial Santa Rosa,Norte,Laptop HP Pavilion,Computo,7,2800.00,19600.00,Yape/Plin,Diego Salazar

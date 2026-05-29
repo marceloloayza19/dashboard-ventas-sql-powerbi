@@ -1,83 +1,136 @@
 # Dashboard de Ventas con SQL y Power BI
 
-Proyecto de practica orientado a Data Analytics y Business Intelligence. El objetivo es analizar un dataset ficticio de ventas usando consultas SQL en MySQL y, posteriormente, construir un dashboard interactivo en Power BI.
+Proyecto de portafolio orientado a practicas de Data Analytics, Business Intelligence y Sistemas. El objetivo es analizar ventas ficticias de una empresa comercial utilizando SQL para la exploracion de datos y Power BI para la construccion posterior de un dashboard ejecutivo.
 
-## Objetivo del proyecto
+## Descripcion
 
-Analizar el comportamiento de ventas de una empresa ficticia para identificar:
+El repositorio contiene un dataset de ventas en formato CSV, scripts SQL compatibles con MySQL, medidas DAX y guias detalladas para preparar los datos y construir un dashboard en Power BI Desktop.
 
-- Ventas totales del periodo.
-- Evolucion mensual de las ventas.
-- Productos mas vendidos.
-- Categorias con mayor facturacion.
-- Zonas con mejor desempeno comercial.
+El archivo `.pbix` no esta incluido porque debe ser creado manualmente en Power BI Desktop como parte del desarrollo practico del proyecto.
 
-## Estructura del proyecto
+## Objetivo
 
-```text
-dashboard-ventas-sql-powerbi/
-├── data/
-│   └── ventas.csv
-├── sql/
-│   └── consultas_analisis_ventas.sql
-├── powerbi/
-│   └── .gitkeep
-├── images/
-│   └── .gitkeep
-├── README.md
-└── conclusiones.md
-```
-
-## Dataset
-
-El archivo `data/ventas.csv` contiene datos ficticios de ventas con las siguientes columnas:
-
-- `fecha`: fecha de la venta.
-- `producto`: producto vendido.
-- `categoria`: categoria del producto.
-- `cliente`: cliente ficticio.
-- `zona`: zona geografica de la venta.
-- `cantidad`: unidades vendidas.
-- `precio_unitario`: precio por unidad.
-- `total_venta`: importe total de la venta.
-
-## Analisis SQL
-
-El archivo `sql/consultas_analisis_ventas.sql` incluye consultas para MySQL que permiten analizar:
-
-- Ventas totales.
-- Ventas por mes.
-- Productos mas vendidos.
-- Ventas por categoria.
-- Ventas por zona.
-
-Estas consultas sirven como base para explorar los datos antes de crear visualizaciones.
-
-## Dashboard en Power BI
-
-El dashboard se construira posteriormente en Power BI usando el dataset `ventas.csv` y los resultados del analisis SQL como referencia.
-
-Cuando el dashboard este listo, se agregaran:
-
-- El archivo `.pbix` en la carpeta `powerbi/`.
-- Capturas del dashboard en la carpeta `images/`.
+Analizar el comportamiento comercial de una empresa ficticia para identificar tendencias, productos destacados, categorias con mayor participacion, zonas con mejores resultados y desempeno de vendedores.
 
 ## Herramientas utilizadas
 
-- MySQL para analisis mediante consultas SQL.
-- Power BI para la construccion del dashboard.
-- CSV como fuente de datos inicial.
-- GitHub para documentar y compartir el proyecto.
+- MySQL para creacion de base de datos, carga y analisis SQL.
+- Power BI Desktop para modelado, medidas DAX y visualizacion.
+- Power Query para limpieza y preparacion de datos.
+- CSV como fuente de datos.
+- GitHub para documentacion y presentacion del proyecto.
 
-## Posibles visualizaciones del dashboard
+## Estructura del repositorio
 
-- Tarjeta con ventas totales.
-- Grafico de lineas con ventas mensuales.
-- Grafico de barras con productos mas vendidos.
-- Grafico de columnas por categoria.
-- Mapa o grafico de barras por zona.
+```text
+dashboard-ventas-sql-powerbi/
+├── README.md
+├── conclusiones.md
+├── data/
+│   └── ventas.csv
+├── sql/
+│   ├── crear_tabla_ventas.sql
+│   └── consultas_ventas.sql
+├── powerbi/
+│   ├── instrucciones_powerbi.md
+│   ├── medidas_dax.md
+│   ├── power_query_m.md
+│   └── layout_dashboard.md
+└── images/
+    └── README.md
+```
+
+## Descripcion del dataset
+
+El archivo `data/ventas.csv` contiene 120 registros ficticios de ventas realizadas durante el anio 2025.
+
+Columnas principales:
+
+- `id_venta`: identificador unico de la venta.
+- `fecha`: fecha de la transaccion.
+- `cliente`: cliente que realizo la compra.
+- `zona`: region comercial.
+- `producto`: producto vendido.
+- `categoria`: categoria del producto.
+- `cantidad`: unidades vendidas.
+- `precio_unitario`: precio por unidad.
+- `total_venta`: resultado de cantidad por precio unitario.
+- `metodo_pago`: forma de pago utilizada.
+- `vendedor`: responsable comercial de la venta.
+
+## Analisis SQL
+
+La carpeta `sql/` incluye:
+
+- `crear_tabla_ventas.sql`: crea la base de datos `db_ventas_portafolio`, define la tabla `ventas` e incluye comentarios para importar el CSV desde MySQL Workbench.
+- `consultas_ventas.sql`: contiene consultas comentadas para analizar ventas totales, cantidad vendida, ticket promedio, ventas por mes, categoria, producto, zona, vendedor, metodo de pago y resumen ejecutivo.
+
+## Dashboard en Power BI
+
+La carpeta `powerbi/` deja preparada la parte analitica para construir el dashboard manualmente:
+
+- `instrucciones_powerbi.md`: guia paso a paso para crear el archivo `.pbix`.
+- `medidas_dax.md`: medidas DAX listas para copiar y pegar.
+- `power_query_m.md`: pasos de limpieza y transformacion en Power Query.
+- `layout_dashboard.md`: diseno recomendado del dashboard.
+
+## Principales indicadores
+
+El dashboard propuesto incluye los siguientes KPIs:
+
+- Ventas Totales.
+- Cantidad Vendida.
+- Numero de Ventas.
+- Ticket Promedio.
+- Precio Promedio.
+- Total Clientes.
+- Total Productos.
+- Variacion de Ventas mensual.
+
+## Visualizaciones propuestas
+
+- Tarjetas KPI principales.
+- Grafico de lineas con ventas por mes.
+- Grafico de barras por categoria.
+- Grafico de barras horizontal con top 5 productos.
+- Grafico de ventas por zona.
+- Tabla o matriz por vendedor.
 - Segmentadores por fecha, categoria y zona.
+
+## Aprendizajes del proyecto
+
+Este proyecto permite practicar:
+
+- Creacion de datasets estructurados para analisis.
+- Diseno de tablas en MySQL.
+- Consultas SQL para analisis comercial.
+- Limpieza de datos con Power Query.
+- Creacion de medidas DAX.
+- Planificacion de dashboards ejecutivos en Power BI.
+- Documentacion profesional de proyectos para GitHub.
+
+## Como revisar el proyecto
+
+1. Descargar o clonar este repositorio.
+2. Revisar el dataset en `data/ventas.csv`.
+3. Ejecutar `sql/crear_tabla_ventas.sql` en MySQL Workbench.
+4. Importar el CSV a la tabla `ventas`.
+5. Ejecutar las consultas de `sql/consultas_ventas.sql`.
+6. Abrir Power BI Desktop e importar el CSV.
+7. Seguir la guia de `powerbi/instrucciones_powerbi.md` para construir el dashboard.
+8. Guardar el archivo `.pbix` en `powerbi/` cuando sea creado manualmente.
+9. Agregar capturas reales del dashboard en `images/`.
 
 ## Estado del proyecto
 
-Proyecto en etapa inicial. Ya incluye estructura base, dataset ficticio, consultas SQL y documentacion principal.
+Proyecto preparado para analisis y construccion manual del dashboard. Incluye dataset, scripts SQL, medidas DAX, guia de Power Query, propuesta de layout y documentacion completa.
+
+Pendiente:
+
+- Construir el archivo `.pbix` en Power BI Desktop.
+- Agregar capturas reales del dashboard en la carpeta `images/`.
+
+## Autor
+
+Marcelo Loayza  
+GitHub: [marceloloayza19](https://github.com/marceloloayza19)

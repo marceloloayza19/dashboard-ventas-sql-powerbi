@@ -1,22 +1,48 @@
-# Conclusiones del Analisis
+# Conclusiones del analisis
 
-Este proyecto utiliza un dataset ficticio de ventas para practicar un flujo basico de Data Analytics y Business Intelligence: carga de datos, exploracion con SQL y preparacion para visualizacion en Power BI.
+Este documento resume los hallazgos esperados a partir del dataset ficticio de ventas y de las consultas SQL propuestas. Las conclusiones estan redactadas como una base para explicar el proyecto en entrevistas o presentaciones academicas.
 
-## Hallazgos generales
+## Categoria con mejor desempeno
 
-- Las ventas muestran actividad constante durante varios meses, lo que permite analizar tendencias mensuales.
-- Los productos con mayor cantidad vendida pueden identificarse mediante consultas SQL agrupadas por producto.
-- La categoria con mayor facturacion no necesariamente coincide con la categoria con mas unidades vendidas, ya que el precio unitario influye en el total de venta.
-- El analisis por zona permite comparar el desempeno comercial entre regiones y detectar oportunidades de mejora.
-- Las metricas de ventas totales, unidades vendidas y ticket promedio pueden servir como indicadores principales para el dashboard.
+Se espera que las categorias `Computo` y `Moviles` concentren una parte importante de la facturacion total debido a que incluyen productos de mayor precio unitario, como laptops, monitores, smartphones y tablets.
 
-## Recomendaciones
+Aunque categorias como `Accesorios` pueden registrar mayor cantidad de unidades vendidas, su impacto en ventas totales puede ser menor porque sus precios unitarios son mas bajos.
 
-- Construir un dashboard en Power BI con indicadores clave como ventas totales, cantidad vendida y ventas por mes.
-- Incluir filtros por fecha, categoria y zona para facilitar el analisis dinamico.
-- Agregar visualizaciones comparativas para identificar rapidamente los productos, categorias y zonas con mejor desempeno.
-- Incorporar nuevas columnas en el futuro, como vendedor, metodo de pago o margen de ganancia, para enriquecer el analisis.
+## Productos mas vendidos
+
+Los productos de menor precio, como mouse, teclados, tintas y auriculares, tienden a destacar en cantidad vendida. Esto permite diferenciar dos enfoques de analisis:
+
+- Productos lideres por unidades vendidas.
+- Productos lideres por facturacion total.
+
+Esta diferencia es importante para tomar decisiones comerciales, ya que un producto puede tener alta rotacion pero menor contribucion economica.
+
+## Zonas con mayores ventas
+
+El analisis por zona permite identificar que regiones concentran mayor facturacion. Las zonas con ventas mas altas pueden representar mercados consolidados, mientras que las zonas con menor desempeno pueden requerir acciones comerciales adicionales.
+
+Este indicador es util para evaluar expansion, campanias regionales y asignacion de vendedores.
+
+## Desempeno de vendedores
+
+La comparacion por vendedor permite observar diferencias en ventas totales, numero de transacciones y ticket promedio. Un vendedor con muchas ventas no necesariamente tiene el mayor importe acumulado, por lo que conviene analizar volumen y valor al mismo tiempo.
+
+Esta informacion puede apoyar decisiones sobre metas, capacitacion y reconocimiento comercial.
+
+## Metodos de pago
+
+El analisis por metodo de pago ayuda a entender las preferencias de los clientes. Metodos como transferencia, tarjeta de credito, efectivo, Yape/Plin o credito empresarial pueden tener comportamientos distintos segun el tipo de cliente o producto.
+
+Este indicador puede ser util para mejorar la experiencia de compra y adaptar opciones de pago.
+
+## Oportunidades de mejora
+
+- Profundizar el analisis con margen de ganancia para evaluar rentabilidad, no solo ventas.
+- Agregar datos de costos, descuentos o promociones.
+- Incorporar metas mensuales para comparar ventas reales contra objetivos.
+- Crear una tabla calendario en Power BI para fortalecer el analisis temporal.
+- Ampliar el dashboard con indicadores de crecimiento mensual y participacion porcentual.
 
 ## Conclusion final
 
-El proyecto ofrece una base clara para practicar analisis de ventas con SQL y visualizacion en Power BI. Aunque los datos son ficticios, la estructura del analisis representa un caso comun en proyectos reales de Business Intelligence.
+El proyecto presenta una base solida para practicar un flujo completo de Business Intelligence: preparacion de datos, analisis SQL, definicion de indicadores y diseno de dashboard. Aunque el dataset es ficticio, la estructura del analisis representa un caso comun en entornos empresariales y es adecuado para un portafolio inicial de Data Analytics.
