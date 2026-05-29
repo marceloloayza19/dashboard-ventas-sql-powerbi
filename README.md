@@ -1,6 +1,6 @@
 # Dashboard de Ventas con SQL y Power BI
 
-Proyecto de portafolio orientado a practicas de Data Analytics, Business Intelligence y Sistemas. El objetivo es analizar ventas ficticias de una empresa comercial utilizando SQL para la exploracion de datos y Power BI para la construccion posterior de un dashboard ejecutivo.
+El objetivo es analizar ventas ficticias de una empresa comercial utilizando SQL para la exploracion de datos y Power BI para la construccion posterior de un dashboard ejecutivo.
 
 ## Descripcion
 
